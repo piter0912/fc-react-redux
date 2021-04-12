@@ -1,0 +1,83 @@
+#header_title {
+  padding: 20px;
+  border: solid 3px black;
+}
+
+input[type="number"] {
+  width: 80px;
+}
+
+input {
+  margin: 0 3px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+button {
+  padding: 0 15px;
+  border-radius: 15%;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  width: 40vw;
+  border: 3px solid black;
+}
+
+.item {
+  padding: 5px 15px;
+}
+
+.elementHead {
+  border-bottom: 3px solid black;
+  padding: 25px;
+}
+
+.elementBody {
+  min-height: 60vh;
+  flex-grow: 1;
+}
+
+.elementFooter {
+  padding: 10px;
+}
+
+.elementHeadNew {
+  display: flex;
+}
+
+.newName {
+  flex-grow: 1;
+}
+
+.elementFooter {
+  font-size: x-large;
+}
+
+.listElement {
+  display: flex;
+  justify-content: space-between;
+}
+
+.elementName {
+  font-size: 20px;
+  line-height: 20px;
+  padding: 15px 5px;
+}
+
+.elementButton {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10%;
+  margin: 5px;
+}
